@@ -8,16 +8,16 @@ U repozitoriju se nalazi programski kod koji se koristio na drugoj radionici nat
 ##### Train
 
   - Naredba za pokretanje treniranja: ``` python train.py ```
-  -- Naučeni model će biti spremljen u folderu "models"
+    * Naučeni model će biti spremljen u folderu "models"
 ##### Extract embeddings
   - Naredba za izvlaćenje vektora: ``` python extract_embeddings.py --model <model_path>```
-  * Ukoliko želite vidjeti kako izgleda rekonstruirana slika pokrenite naredbu s  ```--vis```
+    * Ukoliko želite vidjeti kako izgleda rekonstruirana slika pokrenite naredbu s  ```--vis```
   - Naredba za pokretanje TensorBoard vizualizacije: ``` tensorboard --logdir tensorboard/test ```
 
 #### Transfer learning
 ##### Extract embeddings
   - Naredba za izvlaćenje vektora: ``` python extract_embeddings.py --model <model_path>```
-  * Ukoliko želite vidjeti kako izgleda ulazna slika pokrenite naredbu s ```--vis```
-  * Na radionici se koristio [Inception](https://storage.googleapis.com/download.tensorflow.org/models/inception_dec_2015.zip) model
+     * Ukoliko želite vidjeti kako izgleda ulazna slika pokrenite naredbu s ```--vis```
+    * Na radionici se koristio [Inception](https://storage.googleapis.com/download.tensorflow.org/models/inception_dec_2015.zip) model
   - Naredba za pokretanje TensorBoard vizualizacije: ``` tensorboard --logdir tensorboard/test ```
 
